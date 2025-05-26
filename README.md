@@ -4,7 +4,7 @@ A Verilog-based **Traffic Light Controller** using a **Finite State Machine (FSM
 
 ---
 
-## 🧠 Overview
+##  Overview
 
 This project simulates an automatic traffic light system that cycles through:
 
@@ -17,7 +17,7 @@ Each state is held for a fixed duration, using a countdown timer, before transit
 
 ---
 
-## ⚙️ Features
+##  Features
 
 - FSM-based state transitions  
 - Timer-controlled light durations  
@@ -26,7 +26,7 @@ Each state is held for a fixed duration, using a countdown timer, before transit
 
 ---
 
-## 🔧 Implementation
+##  Implementation
 
 - Written in **Verilog HDL**
 - Clock-driven design with synchronous reset
@@ -38,7 +38,7 @@ Each state is held for a fixed duration, using a countdown timer, before transit
 
 ---
 
-## 🧪 Testbench
+##  Testbench
 
 Includes a testbench (`traffic_light_controller_tb.v`) to simulate the controller. The testbench:
 - Generates a clock
